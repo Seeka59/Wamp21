@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@700&family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Road+Rage&display=swap');
+
+html{
+    scroll-behavior: smooth;
+    height: auto;
+    width: auto;
+   
+}
+#imageMaconPrincipal{
+    background: url(media/maconImagePrincipale.jpg) no-repeat;
+    height: auto;
+    width:auto;
+    background-size: 100%;
+}
+.imgComp img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.7);
+
+}
+li:hover{
+    background-color: #5039e5;
+    color: #FFFAE1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+body {
+    font-family: 'Advent Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+/* *********IMAGE PRINCIPALE************** */
+#imgMacon{
+    padding-top: 30px;
+    background: url(media/terreB.jfif)fixed, repeat;
+    height: auto;
+    width: 100%;
+    background-size: 100%;
+}
+h1{
+    font-family: 'Road Rage', cursive;
+    text-align: center;
+    color: rgb(150, 53, 8);
+    font-size: 6em;
+    margin-top: 100px;
+    text-shadow: 1px 5px 2px black;
+}
+#pt{
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: #FFFAE1;
+    box-shadow: 1px 3px 2px black;
+}
+h3{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    color: rgb(0, 61, 141);
+    font-size: 3em;
+    text-shadow: 1px 2px 2px black;
+}
+form{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.7);
+}
+.prestations{
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+    }
+    .prestations img{
+        padding: auto;
+    }
+.container{
+    background-color: white;
+    width: auto;
+    height: auto;
+    border: 1px #aaa solid; 
+    text-align: center;
+  }
+  /*
+.container img {border:1px solid black;}
+.container img:hover{
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.6s ease-in-out;
+}*/
+
+#compMacon{
+    text-align: center;
+    background: url(media/terrea.png) repeat;
+   
+    height: auto;
+    width: 100%;
+    background-color: bisque;
+}
+h4{
+    font-size: 2em;
+    text-align: center;
+    color: #e55039;
+}
+.cal{
+    box-shadow: 1px 0px 3px black;
+}

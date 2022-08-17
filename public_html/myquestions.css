@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@700&family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Road+Rage&display=swap');
+html{
+    scroll-behavior: smooth;
+    height: auto;
+    width: auto;
+   
+}
+body {
+    font-family: 'Advent Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+h1{
+    font-family: 'Road Rage', cursive;
+    text-align: center;
+    color: rgb(150, 53, 8);
+    font-size: 6em;
+    margin-top: 100px;
+    text-shadow: 1px 5px 2px black;
+}
+
+h3{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    color: rgb(0, 61, 141);
+    font-size: 3em;
+    text-shadow: 1px 2px 2px black;
+}
+.container{
+    background-color: white;
+    width: auto;
+    height: auto;
+    border: 1px #aaa solid; 
+    text-align: center;
+    box-shadow: 1px 3px 2px black;
+  }
+  .headQ{
+    text-align: center;
+    color: rebeccapurple;
+}
+.card{
+    background-color: #FFFAE1;
+    box-shadow: 1px 3px 2px black;
+}

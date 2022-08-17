@@ -1,0 +1,18 @@
+nav{
+    background-color: white;
+    box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+li:hover{
+    background-color: rgb(8, 123, 8);
+    color: #FFFAE1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.dropdown-item:hover{
+    background-color: #5039e5;
+    color: #FFFAE1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}

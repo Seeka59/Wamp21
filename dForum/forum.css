@@ -1,0 +1,11 @@
+form{
+    text-align: center;
+}
+*{
+    text-align: center;
+}
+section{
+    border-width:1px;
+    border-style:dotted;
+    border-color:black;
+}

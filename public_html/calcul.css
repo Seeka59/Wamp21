@@ -1,0 +1,52 @@
+input{
+    background-color:#FCDEDE;
+    box-shadow:1px 1px 1px #D83F3D inset;
+}
+form{
+    box-shadow:1px 1px 2px black ;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.input-mcA {
+    position: relative;
+}
+
+.input-mcA.right input {
+    padding-right:18px;
+    text-align:end; 
+}
+
+.input-mcA:before {
+    position: absolute;
+    top: 0;
+    content:"M²";
+}
+.input-mcA.right:before {
+    right: 5px;
+}
+
+.input-mcC {
+    position: relative;
+}
+
+.input-mcC.right input {
+    padding-right:18px;
+    text-align:end; 
+}
+
+.input-mcC:before {
+    position: absolute;
+    top: 0;
+    content:"M³";
+}
+.input-mcC.right:before {
+    right: 5px;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    box-shadow:1px 1px 2px black ;
+}
